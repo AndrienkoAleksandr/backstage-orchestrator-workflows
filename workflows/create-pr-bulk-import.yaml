@@ -1,8 +1,8 @@
-id: gh-pr
+id: gh-pr-bulk-import
 version: "1.0"
 specVersion: "0.8"
 name: "create github pr"
-description: "This workflow creates a github pr using the github auth provider, used for testing the builtin github auth provider"
+description: "Bulk import's workflow creates a github pr using the github auth provider, used for testing the builtin github auth provider"
 dataInputSchema: schemas/create-gh-pr-input-schema-bulk-import.json
 extensions:
   - extensionid: workflow-output-schema
