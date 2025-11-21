@@ -30,8 +30,8 @@ functions:
       }
   - name: getBranchSHA
     operation: specs/github.yaml#getBranchSHA
-  # - name: createBranch
-  #   operation: specs/githubtwo.yaml#createBranch
+  - name: createBranch
+    operation: specs/github.yaml#createBranch
   - name: pushCommitBranch
     operation: specs/github.yaml#updateBranchRef
   - name: createCommit
